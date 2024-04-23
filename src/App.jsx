@@ -11,10 +11,14 @@ const Title = () => {
 function App() {
   return (
     <div 
-      className="bg-primary h-100 p-5"
-      style={{ color: 'white' }}
+      className="bg-light h-100 p-5"
+      style={{ color: 'black' }}
     >
-      <Link className="text-light" to='/about'>About</Link>
+      <Link className="text-dark" to='/about'>About</Link>
+      <br />
+      <Link to='./Blog'>{'Blog'}</Link>
+      <br />
+      <Link to='./Contact'>{'Contact'}</Link>
       <Title />
     </div>
   )
