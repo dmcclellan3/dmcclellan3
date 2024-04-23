@@ -8,7 +8,7 @@ function Blog() {
       <Link to='/'>{'<- Back'}</Link>
       <br />
       <br />
-      <img class="img-thumbnail w-100 h-50" src="https://alpha-centauri-production.s3.amazonaws.com/uploads/content/174/header_image/header.jpg"></img>
+      <img className="img-thumbnail w-100 h-50" src="https://alpha-centauri-production.s3.amazonaws.com/uploads/content/174/header_image/header.jpg"></img>
         <br />
         <br />
       <h1>Bootcamp Blog</h1>
