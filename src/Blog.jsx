@@ -194,6 +194,24 @@ function Blog() {
         That being said, when writing out only logic and your thoughts on a project it will make it easier to communicate with another developer on what you're working on.
         </p>
 
+        <br />
+
+        <h3>Bootcamp Sprint 4 - React</h3>
+
+        <h4>Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h4>
+
+        <br />
+
+        <p>I wouldn't say that they're hard to use.  There is a learning curve to using react but I believe
+          by improving and getting more proficient with React or another framework/library they can definitely be beneficial.
+        </p>
+
+        <h4>What Frameworks or Libraries are you interested in learning more about?</h4>
+        <br />
+        <p>I think with just learning about React this week, I want to continue to learn more and expand my knowledge base around it. 
+          I enjoyed using it on the most recent project and I'm looking forward to learning more about it this week! 
+        </p>
+
     </div>
   )
 }
