@@ -19,6 +19,8 @@ function App() {
       <Link to='./Blog'>{'Blog'}</Link>
       <br />
       <Link to='./Contact'>{'Contact'}</Link>
+      <br />
+      <Link to='./Projects'>{'Projects'}</Link>
       <Title />
     </div>
   )

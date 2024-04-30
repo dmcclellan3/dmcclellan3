@@ -7,3 +7,10 @@ body {
 #root {
   height: 100%;
 }
+
+#project-cards {
+  display: grid;
+  /* overflow: scroll; */
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
