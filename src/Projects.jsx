@@ -4,7 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+import myImage from '../images-projects/dadb.png'
+import mindReaderImage from '../images-projects/mind-reader.png'
+import weatherAppImage from '../images-projects/weather-app.png'
 
 const Title = () => {
     return (
@@ -20,10 +22,10 @@ const Title = () => {
 function Projects(){
     return (
         <div 
-          className="bg-light h-100 p-5"
+          className="bg-light vh-100 p-5"
           style={{ color: 'black' }}
         >
-          <Navbar bg="dark" data-bs-theme="dark">
+            <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
                     <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
                     <Nav className="me-auto">
@@ -41,23 +43,23 @@ function Projects(){
             <br />
             <div id="project-cards">
             <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={mindReaderImage} />
                 <Card.Body>
-                    <Card.Title>Project Title</Card.Title>
+                    <Card.Title>Mind Reader</Card.Title>
                     <Card.Text>
-                        text about project
+                        Mind reader game built using JavaScript 
                     </Card.Text>
-                    <Button variant="dark">Go somewhere</Button>
+                    <Button variant="dark">Open</Button>
                 </Card.Body>
             </Card> 
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Img variant="top" src={weatherAppImage} />
                 <Card.Body>
-                    <Card.Title>Project Title</Card.Title>
+                    <Card.Title>Weather App</Card.Title>
                     <Card.Text>
-                        text about project
+                        Weather app built using Javascript and API
                     </Card.Text>
-                    <Button variant="dark">Go somewhere</Button>
+                    <Button variant="dark">Open</Button>
                 </Card.Body>
             </Card> 
             <Card style={{ width: '18rem' }}>
@@ -91,13 +93,13 @@ function Projects(){
                     </Card.Body>
                 </Card> 
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={myImage} />
                     <Card.Body>
-                        <Card.Title>Project Title</Card.Title>
+                        <Card.Title>Restaurant Site</Card.Title>
                         <Card.Text>
-                            text about project
+                            Restaurant site using React and API menu 
                         </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
+                        <Button className='d-flex justify-content-center' variant="dark">Open</Button>
                     </Card.Body>
                 </Card> 
             </div>

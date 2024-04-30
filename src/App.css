@@ -10,7 +10,10 @@ body {
 
 #project-cards {
   display: grid;
-  /* overflow: scroll; */
+  overflow: scroll;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
+}
+.Projects{
+  margin: auto;
 }
