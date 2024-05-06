@@ -196,7 +196,7 @@ function Blog() {
 
         <br />
 
-        <h3>Bootcamp Sprint 4 - React</h3>
+        <h3>Bootcamp Sprint 4</h3>
 
         <h4>Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h4>
 
@@ -211,6 +211,25 @@ function Blog() {
         <p>I think with just learning about React this week, I want to continue to learn more and expand my knowledge base around it. 
           I enjoyed using it on the most recent project and I'm looking forward to learning more about it this week! 
         </p>
+
+        <h3>Bootcamp Sprint 5</h3>
+
+        <h4>What have you learned about CLI's?  Do you think that they're scary?</h4>
+          <br />
+
+        <p>CLI stands for Command Line Interface.  A CLI allows you to execute functions within an operating system. 
+          We are going to start going over that this week while learning Python.</p>
+
+        <h4>If you were to build a CLI, what would it do?</h4>
+
+        <p>With being so new to them I'm not sure exactly how I would build them just yet.
+          But I'm looking forward to learning more this week. 
+        </p>
+
+        <h4>List some ideas that without a framework, would take you a long time to code.</h4>
+        <br />
+
+        <p></p>
 
     </div>
   )
