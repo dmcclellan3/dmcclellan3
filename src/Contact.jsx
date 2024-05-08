@@ -1,9 +1,26 @@
 import { Link } from "react-router-dom"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 
 function Contact(){
     <Link to='/'>{'<- Back'}</Link> 
+    
     return(
+        <div>
+           <Navbar bg="dark" data-bs-theme="dark">
+                <Container>
+                    <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
+                    <Nav className="me-auto">
+                    <Nav.Link href="./Projects">Projects</Nav.Link>
+                    <Nav.Link href="/projects">About Me</Nav.Link>
+                    <Nav.Link href="./Blog">Blog</Nav.Link>
+                    <Nav.Link href="./Contact">Contact</Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
         <div className="container">
         <div className="row">
           <div className="col-12">
@@ -26,6 +43,7 @@ function Contact(){
             </div>
           </div>
         </div>
+       </div>
       </div>
       
     )

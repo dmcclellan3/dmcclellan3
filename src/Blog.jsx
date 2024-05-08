@@ -1,11 +1,25 @@
 import { Link } from "react-router-dom"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function Blog() {
   return (
     <div style={{textAlign: "center",}}
         className="p-5 bg-light">
         
-      <Link to='/'>{'<- Back'}</Link>
+      {/* <Link to='/'>{'<- Back'}</Link> */}
+      <Navbar bg="dark" data-bs-theme="dark">
+                <Container>
+                    <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
+                    <Nav className="me-auto">
+                    <Nav.Link href="./Projects">Projects</Nav.Link>
+                    <Nav.Link href="/projects">About Me</Nav.Link>
+                    <Nav.Link href="./Blog">Blog</Nav.Link>
+                    <Nav.Link href="./Contact">Contact</Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
       <br />
       <br />
       <img className="img-thumbnail w-100 h-50" src="https://alpha-centauri-production.s3.amazonaws.com/uploads/content/174/header_image/header.jpg"></img>
@@ -198,6 +212,8 @@ function Blog() {
 
         <h3>Bootcamp Sprint 4</h3>
 
+        <br />
+
         <h4>Do you think JavaScript Frameworks and Libraries are easy or hard to use? Why?</h4>
 
         <br />
@@ -205,6 +221,8 @@ function Blog() {
         <p>I wouldn't say that they're hard to use.  There is a learning curve to using react but I believe
           by improving and getting more proficient with React or another framework/library they can definitely be beneficial.
         </p>
+
+        <br />
 
         <h4>What Frameworks or Libraries are you interested in learning more about?</h4>
         <br />
@@ -214,18 +232,25 @@ function Blog() {
 
         <h3>Bootcamp Sprint 5</h3>
 
+        <br />
+
         <h4>What have you learned about CLI's?  Do you think that they're scary?</h4>
           <br />
 
         <p>CLI stands for Command Line Interface.  A CLI allows you to execute functions within an operating system. 
           We are going to start going over that this week while learning Python.</p>
 
+          <br />
+
         <h4>If you were to build a CLI, what would it do?</h4>
+
+        <br />
 
         <p>With being so new to them I'm not sure exactly how I would build them just yet.
           But I'm looking forward to learning more this week. 
         </p>
-
+        <br />
+        
         <h4>List some ideas that without a framework, would take you a long time to code.</h4>
         <br />
 
