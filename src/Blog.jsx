@@ -254,7 +254,7 @@ function Blog() {
         <h4>List some ideas that without a framework, would take you a long time to code.</h4>
         <br />
 
-        <p></p>
+       
 
         <h3>Bootcamp Sprint 6</h3>
 
