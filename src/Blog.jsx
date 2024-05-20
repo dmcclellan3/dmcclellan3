@@ -198,7 +198,7 @@ function Blog() {
         <p> Pseudocode is a very important part of the programming process.  
         Being new to the world of software development, I've seen how important it is already with the projects that we have been asked to complete. 
         Pseudocode is a detailed outline where we use common logic to help process what we want a program to do.  It doesn't incorporate any programming language and should be written in such a way that anyone reading it should be able to understand. 
-        As we have learned so far in the bootcamp, pseudocode serves as a blueprint to a solution to a coding problem. 
+        As we have learned so far in the bootcamp, pseudocode serves as a blueprint to a solution to a coding problem.
         <br />
         <br />
         There are multiple benefits of pseudocode which are beneficial for developers regardless of experience level.  
@@ -250,9 +250,6 @@ function Blog() {
           But I'm looking forward to learning more this week. 
         </p>
         <br />
-        
-        <h4>List some ideas that without a framework, would take you a long time to code.</h4>
-        <br />
 
        
 
@@ -267,7 +264,7 @@ function Blog() {
         <p>I think the biggest hurdle transitioning into the bootcamp was the pace.  
           I wasn't used to the 8-5 schedule with coding and building projects throughout the week and doing other smaller projects as well.
           However, I've adjusted to that and have been enjoying being able to build and create different projects using Javascript, React and most recently Python. 
-          I think the next thing to power through as of now will be transitioning into backend development.  So far we have heavily been doing front end development
+          I think the next thing to power through as of now will be transitioning into back end development.  So far we have heavily been doing front end development
           but this coming week we will be diving more into backend related work.  It will be a change but I'm excited to learn more on that and learn about combining 
           front and back end together. 
         </p>
@@ -290,6 +287,35 @@ function Blog() {
 
         <p>I think what surprised me about python was how much easier it is to read. There were some differences that were a learning curve but   
           in a way it does read more like regular english in comparison to Javascript. </p>
+
+
+        <h3>Bootcamp Sprint 7</h3>
+
+        <br />
+
+        <h4>What are some similarities and differences you can see with JS and Python?</h4>
+
+        <p>One of the similarities that I see between the two languages is that they both support first class functions. 
+          Meaning that both JS and Python will allow you to pass functions as arguments and can be assigned to variables.  
+          Another similarity is that both JavaScript and Python execute the code line by line. 
+
+          <br />
+
+          One of the differences between the two is the environment where they are executed.  
+          Python works on the server side for backend development where the user won't see what's being produced by it. 
+          JavaScript on the other hand runs in the browser.  It provides dynamics to a site or app that the user can interact with and see.  
+        </p>
+
+        <br />
+
+        <h4>If you had started with Python instead of JS, how do you think the Bootcamp would be different? Would you have benefited?</h4>
+
+        <br />
+
+        <p>I'm glad that we started with Javascript.  I enjoyed being able to start with frontend development and 
+          create projects that a user could interact with. Because of that learning JS gave me immediate feedback since I was 
+          building things that could be tested in the browser.  So at the end of the day I don't personally feel that I would have benefited
+          with starting in Python. </p>
         
 
     </div>
