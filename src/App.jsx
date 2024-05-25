@@ -13,8 +13,9 @@ function App() {
     <div 
       className="bg-light h-100 p-5"
       style={{ color: 'black' }}
+      
     >
-      <Link className="text-dark" to='/about'>About</Link>
+      <Link className="text-dark" to='./About'>About</Link>
       <br />
       <Link to='./Blog'>{'Blog'}</Link>
       <br />
@@ -25,6 +26,8 @@ function App() {
     </div>
   )
 }
+
+
 
 
 export default App

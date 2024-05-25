@@ -15,7 +15,7 @@ function Contact(){
                     <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
                     <Nav className="me-auto">
                     <Nav.Link href="./Projects">Projects</Nav.Link>
-                    <Nav.Link href="/projects">About Me</Nav.Link>
+                    <Nav.Link href="./About">About Me</Nav.Link>
                     <Nav.Link href="./Blog">Blog</Nav.Link>
                     <Nav.Link href="./Contact">Contact</Nav.Link>
                     </Nav>

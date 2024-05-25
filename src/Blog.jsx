@@ -14,7 +14,7 @@ function Blog() {
                     <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
                     <Nav className="me-auto">
                     <Nav.Link href="./Projects">Projects</Nav.Link>
-                    <Nav.Link href="/projects">About Me</Nav.Link>
+                    <Nav.Link href="./About">About Me</Nav.Link>
                     <Nav.Link href="./Blog">Blog</Nav.Link>
                     <Nav.Link href="./Contact">Contact</Nav.Link>
                     </Nav>
@@ -316,6 +316,20 @@ function Blog() {
           create projects that a user could interact with. Because of that learning JS gave me immediate feedback since I was 
           building things that could be tested in the browser.  So at the end of the day I don't personally feel that I would have benefited
           with starting in Python. </p>
+
+        <br />
+
+        <h3>Bootcamp Sprint 8</h3>
+
+        <br />
+
+        <p>This week we learned about mySQL and Django. We built an API that we used to import menu
+          items to the frontend for a restaurant site that we built previously.  It was great to be able to 
+          get some full stack experience in building the project.  I'm looking forward to getting more experience
+          with that and learning new things.  Now that we're into doing full stack projects it's getting 
+          closer to our final projects and ultimately into a role where I'll get to utilize what I've learned
+          and continue to grow and learn as a software developer.  
+        </p>
         
 
     </div>
