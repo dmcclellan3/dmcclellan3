@@ -8,12 +8,54 @@ body {
   height: 100%;
 }
 
-#project-cards {
-  display: grid;
-  overflow: scroll;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+.landing-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  background-color: #f7f7f7;
 }
-.Projects{
-  margin: auto;
+
+.hero-section {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #ff7e5f;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffe0d3;
+}
+
+.contact-section {
+  padding: 50px 20px;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
 }

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
+import Contact from './Contact';
 
 const Title = () => {
   return (
     <h1>
-      Hello World!
     </h1>
   )
 }
@@ -23,6 +23,19 @@ function App() {
       <br />
       <Link to='./Projects'>{'Projects'}</Link>
       <Title />
+      <div className="landing-page">
+            <header className="hero-section">
+                <div className="hero-content">
+                    <h1>Hi, I'm Duke McClellan</h1>
+                    <p>I'm a Full Stack Web Developer passionate about building impactful web applications.</p>
+                    <button className="cta-button">View My Work</button>
+                </div>
+            </header>
+            <section className="contact-section">
+                <h2>Contact Me</h2>
+                <Contact />
+            </section>
+        </div>
     </div>
   )
 }
