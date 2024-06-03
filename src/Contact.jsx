@@ -29,7 +29,6 @@ function Contact(){
                 <div className="profile-info">
                     <h2 className="name">Duke McClellan</h2>
                     <p className="title">Full Stack Web Developer</p>
-                    {/* <button className="contact-button">Contact me</button> */}
                 </div>
             </div>
             <div className="social-icons">
