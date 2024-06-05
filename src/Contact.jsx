@@ -25,7 +25,7 @@ function Contact(){
             </Navbar>
             <div className="contact-card">
             <div className="profile-section">
-                <img src="https://media.licdn.com/dms/image/D4E03AQEbwJ59Zqv6TQ/profile-displayphoto-shrink_800_800/0/1715535669511?e=1722470400&v=beta&t=skBM7QmwIonzp_Gx3wGXbqXWBPnuCnQnBxJxRCKfLMM" alt="Profile" className="profile-pic" />
+                <img src="https://media.licdn.com/dms/image/D4E03AQHJzsAy1_tl8Q/profile-displayphoto-shrink_400_400/0/1717418614810?e=1723075200&v=beta&t=YvTHCkoOOAgeH0zrSRIgczvJ8nbWXmmfIuPKPyq_9rQ" alt="Profile" className="profile-pic" />
                 <div className="profile-info">
                     <h2 className="name">Duke McClellan</h2>
                     <p className="title">Full Stack Web Developer</p>
