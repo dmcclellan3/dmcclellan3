@@ -5,16 +5,16 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Blog() {
   return (
-    <div style={{textAlign: "center",}}
-        className="p-5 bg-light">
+    <div style={{ textAlign: "center",}}
+        className="p-5">
         
       {/* <Link to='/'>{'<- Back'}</Link> */}
       <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                    <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
+                    <Navbar.Brand href="/">Duke McClellan</Navbar.Brand>
                     <Nav className="me-auto">
                     <Nav.Link href="./Projects">Projects</Nav.Link>
-                    <Nav.Link href="./About">About Me</Nav.Link>
+                    {/* <Nav.Link href="./About">About Me</Nav.Link> */}
                     <Nav.Link href="./Blog">Blog</Nav.Link>
                     <Nav.Link href="./Contact">Contact</Nav.Link>
                     </Nav>
@@ -22,7 +22,7 @@ function Blog() {
             </Navbar>
       <br />
       <br />
-      <img className="img-thumbnail w-100 h-50" src="https://alpha-centauri-production.s3.amazonaws.com/uploads/content/174/header_image/header.jpg"></img>
+      <img className="img-thumbnail w-50 h-30" src="https://alpha-centauri-production.s3.amazonaws.com/uploads/content/174/header_image/header.jpg"></img>
         <br />
         <br />
       <h1>Bootcamp Blog</h1>

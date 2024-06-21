@@ -1,28 +1,42 @@
 html {
   height: 100%;
+  
 }
 body {
   height: 100%;
+  background: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background: linear-gradient(to bottom, #121212, #323232);
 }
+
 #root {
   height: 100%;
 }
 
-.landing-page {
+#landing-page {
   font-family: 'Arial', sans-serif;
   color: #333;
   text-align: center;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background: rgb(142,143,142);
+  background: linear-gradient(0deg, rgba(142,143,142,1) 0%, rgba(1,3,1,1) 48%);
 }
 
-.hero-section {
+/* .hero-section {
   background: linear-gradient(135deg, #ff7e5f, #feb47b);
   padding: 100px 20px;
-  color: #fff;
-}
+  /* color: #fff; */
+ */
 
 .hero-content {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
 }
 
@@ -39,8 +53,8 @@ body {
 .cta-button {
   padding: 15px 30px;
   font-size: 18px;
-  color: #ff7e5f;
-  background-color: #fff;
+  /* color: #ff7e5f; */
+  /* background-color: #fff; */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -51,11 +65,22 @@ body {
   background-color: #ffe0d3;
 }
 
-.contact-section {
+/* .contact-section {
   padding: 50px 20px;
-}
+} */
 
 .contact-section h2 {
   font-size: 36px;
   margin-bottom: 40px;
+}
+
+.project-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  width: 100%;
 }

@@ -7,17 +7,17 @@ function About() {
       <div className="App">
         <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                    <Navbar.Brand href="###">Duke McClellan</Navbar.Brand>
+                    <Navbar.Brand href="/">Duke McClellan</Navbar.Brand>
                     <Nav className="me-auto">
                     <Nav.Link href="./Projects">Projects</Nav.Link>
-                    <Nav.Link href="./About">About Me</Nav.Link>
+                    {/* <Nav.Link href="./About">About Me</Nav.Link> */}
                     <Nav.Link href="./Blog">Blog</Nav.Link>
                     <Nav.Link href="./Contact">Contact</Nav.Link>
                     </Nav>
                 </Container>
           </Navbar>
         <header className="header">
-          <h1>Aspiring Web Developer Blog</h1>
+          <h1>Web Developer Blog</h1>
           <nav className="nav">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
