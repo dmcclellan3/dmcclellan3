@@ -1,13 +1,30 @@
 .contact-card {
-    max-width: 500px;
-    margin: 50px auto;
+    max-width: 350px;
+    margin: 125px auto;
     padding: 20px;
     border-radius: 15px;
-    background-color: #333;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #5b5b5b;
     color: #fff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     text-align: center;
     font-family: 'Arial', sans-serif;
+}
+
+/* Add media queries to make the card responsive */
+@media (max-width: 768px) {
+    .contact-card {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-card {
+        margin: 10px;
+        padding: 10px;
+    }
 }
 
 .profile-section {
@@ -17,12 +34,27 @@
     margin-bottom: 20px;
 }
 
+/* Adjust profile pic size for smaller screens */
 .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid #fff;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 .profile-info {
@@ -34,24 +66,34 @@
     margin-bottom: 5px;
 }
 
+@media (max-width: 768px) {
+    .name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .name {
+        font-size: 18px;
+    }
+}
+
 .title {
     font-size: 18px;
     margin-bottom: 20px;
     color: #bbb;
 }
 
-/* .contact-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-} */
+@media (max-width: 768px) {
+    .title {
+        font-size: 16px;
+    }
+}
 
-.contact-button:hover {
-    background-color: #0056b3;
+@media (max-width: 576px) {
+    .title {
+        font-size: 14px;
+    }
 }
 
 .social-icons {
@@ -60,7 +102,22 @@
     gap: 20px;
 }
 
+/* Adjust social icon size for smaller screens */
 .social-icons a img {
     width: 50px;
     height: 50px;
+}
+
+@media (max-width: 768px) {
+    .social-icons a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .social-icons a img {
+        width: 30px;
+        height: 30px;
+    }
 }

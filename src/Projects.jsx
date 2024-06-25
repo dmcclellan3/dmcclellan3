@@ -23,9 +23,9 @@ const Title = () => {
 function Projects() {
   return (
     <div 
-      className="bg-light vh-100 p-5"
+      className="vh-100 p-3"
       style={{
-        background: 'linear-gradient(to bottom right, #2c3e50, #4ca1af)',
+        // background: 'linear-gradient(to bottom right, #2c3e50, #4ca1af)',
         color: 'white'
       }}
     >

@@ -27,14 +27,7 @@ function Week12() {
       <br />
       <br />
       <br />
-
-      <h3>Bootcamp Sprint 9</h3>
-
-        <br />
-
-        <h4>What has been your experience overall thus far? What would you want to post as a “retrospective”?</h4>
-
-        <p></p>
+        
     </div>
     );
 }

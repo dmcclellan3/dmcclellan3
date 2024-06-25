@@ -13,7 +13,7 @@ const Title = () => {
 
 function App() {
   return (
-    <div id="landing-page" className="bg-light h-100 p-5" style={{ color: 'white' }}>
+    <div id="landing-page" className="h-100 p-3" style={{ color: 'white' }}>
       <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
                     <Navbar.Brand href="/">Duke McClellan</Navbar.Brand>

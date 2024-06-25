@@ -1,4 +1,16 @@
-body {
+/* body {
     background: linear-gradient(to bottom, #121212, #323232);
 
-}
+} */
+
+/* .project-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project-card {
+    width: 100%;
+  }
+   */
