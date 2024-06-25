@@ -2,11 +2,12 @@ import { Link } from "react-router-dom"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import './Blog.css'
 
 function Blog() {
   return (
     <div style={{ textAlign: "center",}}
-        className="p-5">
+        className="Blog p-3">
         
       {/* <Link to='/'>{'<- Back'}</Link> */}
       <Navbar bg="dark" data-bs-theme="dark">
@@ -331,11 +332,11 @@ function Blog() {
           and continue to grow and learn as a software developer.  
         </p>
 
-        <h3>Bootcamp Sprint 9</h3>
+        {/* <h3>Bootcamp Sprint 9</h3> */}
 
         <br />
 
-        <h4>What has been your experience overall thus far? What would you want to post as a “retrospective”?</h4>
+        {/* <h4>What has been your experience overall thus far? What would you want to post as a “retrospective”?</h4> */}
 
         <p></p>
         

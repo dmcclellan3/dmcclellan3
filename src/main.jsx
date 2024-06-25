@@ -8,6 +8,8 @@ import {
 // project styles
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import './Contact.css'
+import './Projects.css'
 
 import About from './About'
 import App from './App'
