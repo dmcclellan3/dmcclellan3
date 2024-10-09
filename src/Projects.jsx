@@ -52,7 +52,7 @@ function Projects() {
           <Card.Body>
             <Card.Title>Course Caddy</Card.Title>
             <Card.Text>
-              Full stack project using React and Django  
+              Full stack capstone project using React and Django  
             </Card.Text>
             <Link to='https://course-caddy.vercel.app/landingpage'><Button variant="dark">Open</Button></Link>
           </Card.Body>
