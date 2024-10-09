@@ -10,6 +10,7 @@ import weatherAppImage from '../images-projects/weather-app.png';
 import ticTacToeImage from '../images-projects/tic-tac-toe.png';
 import todoListImage from '../images-projects/todolist.png';
 import alarmClockImage from '../images-projects/alarm-clock.png'
+import courseCaddyImage from '../images-projects/course-caddy.png'
 import './Projects.css'; 
 
 const Title = () => {
@@ -46,14 +47,34 @@ function Projects() {
       <br />
       <br />
       <div id="project-cards" className="project-cards-container">
-        <Card className="project-card">
-          <Card.Img variant="top" src={mindReaderImage} />
+      <Card className="project-card">
+          <Card.Img variant="top" src={courseCaddyImage} />
           <Card.Body>
-            <Card.Title>Mind Reader</Card.Title>
+            <Card.Title>Course Caddy</Card.Title>
             <Card.Text>
-              Mind reader game built using JavaScript 
+              Full stack project using React and Django  
             </Card.Text>
-            <Link to='https://mind-reader-ten.vercel.app/'><Button variant="dark">Open</Button></Link>
+            <Link to='https://course-caddy.vercel.app/landingpage'><Button variant="dark">Open</Button></Link>
+          </Card.Body>
+        </Card> 
+        <Card className="project-card">
+          <Card.Img variant="top" src={myImage} />
+          <Card.Body>
+            <Card.Title>Restaurant Site</Card.Title>
+            <Card.Text>
+              Restaurant site using React and API menu 
+            </Card.Text>
+            <Link to='https://random-restaurant-three.vercel.app'><Button className='d-flex justify-content-center' variant="dark">Open</Button></Link>
+          </Card.Body>
+        </Card> 
+        <Card className="project-card">
+          <Card.Img variant="top" src={todoListImage} />
+          <Card.Body>
+            <Card.Title>TaskTrack</Card.Title>
+            <Card.Text>
+              Todo List built using React
+            </Card.Text>
+            <Link to='https://todo-list-eight-topaz-20.vercel.app'><Button variant="dark">Open</Button></Link>
           </Card.Body>
         </Card> 
         <Card className="project-card">
@@ -77,6 +98,16 @@ function Projects() {
           </Card.Body>
         </Card> 
         <Card className="project-card">
+          <Card.Img variant="top" src={mindReaderImage} />
+          <Card.Body>
+            <Card.Title>Mind Reader</Card.Title>
+            <Card.Text>
+              Mind reader game built using JavaScript 
+            </Card.Text>
+            <Link to='https://mind-reader-ten.vercel.app/'><Button variant="dark">Open</Button></Link>
+          </Card.Body>
+        </Card> 
+        <Card className="project-card">
           <Card.Img variant="top" src={alarmClockImage} />
           <Card.Body>
             <Card.Title>Digital Clock</Card.Title>
@@ -86,26 +117,7 @@ function Projects() {
             <Link to='https://dmcclellan3.github.io/alarm-clock/'><Button variant="dark">Open</Button></Link>
           </Card.Body>
         </Card>
-        <Card className="project-card">
-          <Card.Img variant="top" src={todoListImage} />
-          <Card.Body>
-            <Card.Title>Todo List</Card.Title>
-            <Card.Text>
-              Todo List
-            </Card.Text>
-            <Link to='https://todo-list-eight-topaz-20.vercel.app'><Button variant="dark">Open</Button></Link>
-          </Card.Body>
-        </Card> 
-        <Card className="project-card">
-          <Card.Img variant="top" src={myImage} />
-          <Card.Body>
-            <Card.Title>Restaurant Site</Card.Title>
-            <Card.Text>
-              Restaurant site using React and API menu 
-            </Card.Text>
-            <Link to='https://random-restaurant-three.vercel.app'><Button className='d-flex justify-content-center' variant="dark">Open</Button></Link>
-          </Card.Body>
-        </Card> 
+        
       </div>
     </div>
   );
